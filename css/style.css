@@ -1,0 +1,94 @@
+@font-face{
+ font-family: "Larsseit";
+ src: url("../fonts/larsseit/Larsseit-Bold.woff2") format(woff2), url("../fonts/larsseit/Larsseit-Bold.woff") format(woff);
+ font-display: swap;
+ font-weight:700;
+ font-style:normal;
+}
+@font-face{
+   font-family: "Larsseit";
+   src: url("../fonts/larsseit/Larsseit-Medium.woff2") format(woff2), url("../fonts/larsseit/Larsseit-Medium.woff") format(woff);
+   font-display: swap;
+   font-weight:500;
+   font-style:normal;
+  }
+  @font-face{
+   font-family: "Lato";
+   src: url("../fonts/lato/Lato-Bold.woff2") format(woff2), url("../fonts/lato/Lato-Bold.woff") format(woff);
+   font-display: swap;
+   font-weight:700;
+   font-style:normal ;
+  }
+  @font-face{
+   font-family: "Lato";
+   src: url("../fonts/lato/Lato-Medium.woff2") format(woff2), url("../fonts/lato/Lato-Medium.woff") format(woff);
+   font-display: swap;
+   font-weight:500;
+   font-style:normal;
+  }
+  @font-face{
+   font-family: "Lato";
+   src: url("../fonts/lato/Lato-Black.woff2") format(woff2), url("../fonts/lato/Lato-Black.wofff") format(woff);
+   font-display: swap;
+   font-weight:900;
+   font-style:normal;
+  }
+
+  /* -------- ПРІОРИТЕТ СЕЛЕКТОРІВ ------------ */
+/*
+Основні правила формування пріоритетів: 
+1) У випадку рівнозначних селекторів більший 
+пріоритет буде у останього по коду.
+2) Більший пріоритет завжди буде у селектора,
+який звужує (уточює, конкретизує) пошук (запит).
+3) Пріоритет у рядкових (inline) стилів (атрибут style="") вищий ніж у стилів з окремого файлу (наприклад style.css)
+4) Флаг !important перезаписує пріоритет (не рекомендується)
+*/
+
+/* ==================== */
+
+.header {
+   font-size: 70px;
+   font-family: "Larsseit";
+   font-weight: 700;
+}
+.text {
+   font-size: 20px;
+   font-family: "Lato";
+   font-weight: 500;
+}
+.list {
+   font-size: 20px;
+   font-family: "Larsseit";
+   font-weight: 700;
+   color:cadetblue;
+}
+.text-two {
+   font-family: "Roboto";
+   font-weight: 500;
+   color: blue;
+}
+.dogs {
+   font-size: 20px;
+   font-family: "Roboto";
+   font-weight: 400;
+   color: brown;
+}
+.id {
+   font-size: 20px;
+   font-size: 50px;
+   font-weight: 900;
+   color: aqua;
+}
+.text-three {
+   font-size: 20px;
+   font-family: "Roboto";
+   font-weight: 400;
+   color: blueviolet;
+}
+.footer{
+   font-size: 20px;
+   font-family: "Roboto";
+   font-weight: 900;
+   color: burlywood;
+}
